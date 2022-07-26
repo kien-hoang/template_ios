@@ -1,0 +1,48 @@
+
+disabled_rules: # disable rule
+  - trailing_whitespace
+  - line_length
+  - type_name
+  - identifier_name
+  - nesting
+  - function_parameter_count
+  - force_cast
+
+opt_in_rules: # added role
+  - control_statement
+  - empty_count
+  - empty_string
+  - trailing_newline
+  - colon
+  - comma
+  - attributes
+  - multiline_parameters_brackets
+  - object_literal
+  - operator_usage_whitespace
+  - pattern_matching_keywords
+  - toggle_bool
+  - unneeded_parentheses_in_closure_argument
+  - unused_import
+  - vertical_parameter_alignment_on_call
+  - vertical_whitespace_between_cases
+  - weak_delegate
+  - yoda_condition
+  
+  # maybe need remove. Testing time
+  - trailing_closure
+  - array_init
+  - unused_declaration
+  
+excluded:
+  - Pods
+  - AppPass/Resources
+
+force_try:
+  severity: warning
+  
+# giới hạn
+function_body_length:
+  warning: 50
+  error: 60
+
+reporter: "xcode"

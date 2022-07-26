@@ -1,0 +1,7 @@
+Pods
+AppPass.xcworkspace
+DerivedData
+Podfile.lock
+.DS_Store
+xcuserdata
+*.generated.swift
